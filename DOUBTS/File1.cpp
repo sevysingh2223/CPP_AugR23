@@ -3,9 +3,14 @@
 #include<stdio.h>
 #include<iostream>
 using namespace std;
-int arr23[4] = {1,2,3,4};
+int arr23[4];
 
 void addOne(){
+    for(int i=0;i<4;i++){
+    cout<<"Enter e"<<endl;
+
+        cin>>arr23[i];
+    }
     int size = sizeof(arr23)/ sizeof(int);
     for(int i=0;i<size;i++){
         arr23[i] = arr23[i]+1;

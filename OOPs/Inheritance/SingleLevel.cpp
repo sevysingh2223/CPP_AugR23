@@ -24,9 +24,9 @@ class Child : public Parent{
 
 int main(){
 
-    Parent obj2;
+    // Parent obj2;
 
-    // Child obj;
-    // obj.show();
+    Child obj;
+    obj.show();
     return 0;
 }

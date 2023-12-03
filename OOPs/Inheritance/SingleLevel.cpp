@@ -8,7 +8,7 @@ class Parent{
         cout<<"This is Parent Constructor"<<endl;
     }
     void show(){
-        cout<<"This is Parent Class"<<endl;
+        cout<<"This is Parent Class  :: Show Method"<<endl;
     }
 };
 
@@ -18,7 +18,7 @@ class Child : public Parent{
         cout<<"This is Child Constructor"<<endl;
     }
     void show(){
-        cout<<"This is Child Class"<<endl;
+        cout<<"This is Child Class :: Show Method"<<endl;
     }
 };
 

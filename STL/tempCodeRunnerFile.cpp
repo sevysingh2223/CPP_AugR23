@@ -1,4 +1,3 @@
-#include<stdio.h>
-#include<array>
-
-using namespace std;
+f(!myqueue.empty()) {
+    //     cout << myqueue.top() << endl;
+    // }
